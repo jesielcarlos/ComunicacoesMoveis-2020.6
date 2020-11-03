@@ -1,0 +1,16 @@
+body{
+    background: url("Images/fundo.jpg");
+    font-family:courier,arial,helvetica;
+}
+
+section{
+    background: rgb(183, 179, 223);
+    width: 700px;
+    height: 500px;
+    margin: auto;
+}
+
+.content{
+    color: rgb(0, 0, 0);
+    
+}
