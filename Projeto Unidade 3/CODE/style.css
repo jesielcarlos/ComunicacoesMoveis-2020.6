@@ -26,7 +26,7 @@ h3{
     box-shadow: 5px 5px 5px 5px rgba(41, 71, 241, 0.712);
 }
 
-.btn{
+/*.btn{
     background-color: #ddd;
     border: none;
     outline: none;
@@ -42,7 +42,7 @@ h3{
 .btn:hover {
     background-color: #3e8e41;
     color: white;
-  }
+  }*/
 .field{
     position: relative;
     margin-top: 10px;
@@ -61,7 +61,7 @@ h3{
 footer{
     text-align: center;
 }
-output{
+span{
     border-radius: 8px;
     background-color: #3e8e41;
     position: relative;
