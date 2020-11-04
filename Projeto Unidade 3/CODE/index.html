@@ -10,11 +10,12 @@
 </head>
 <body>
     
-    <div class="conteiner">
+    <section class="conteiner">
         <h2>Calculadora LTE</h2>
 
         <div class="inputs">
             <h3>Inputs</h3>
+            <!--
             <div class="label">
                 <label for="lbw">BW</label>
                 <label for="lcp">CP</label>
@@ -22,6 +23,8 @@
                 <label for="lmimo">MIMO</label>
                 <label for="lca">CA</label>
             </div>
+            -->
+
             <select class="select" id="BW">
                 <option value="15000">15KHz</option>
                 <option value="30000">30KHz</option>
@@ -47,21 +50,21 @@
         <button class="btn" onclick="calcular()"> CALCULAR </button>
         
 
-        <div class="ouputs">
+        <div class="outputs">
             <h3>Ouputs</h3>
 
-            <span id="prb">resultado</span>
-            <span id="tbs">resultado</span>
-            <span id="valortbs">resultado</span>
-            <span id="modulacao">resultado</span>
-            <span id="nre">resultado</span>
-            <span id="qtdsimmbolos">resultado</span>
-            <span id="taxa1">resultado</span>
-            <span id="taxa2">resultado</span>
+            <div id="prb" class="prb">prb</div>
+            <div id="tbs" class="tbs">tbs</div>
+            <div id="valortbs" class="valortbs">valortbs</div>
+            <div id="modulacao" class="modulacao">modulação</div>
+            <div id="nre" class="nre">nre</div>
+            <div id="qtdsimmbolos" class="qtdsimbolos">qtdsimbolo</div>
+            <div id="taxa1" class="taxa1">taxa1</div>
+            <div id="taxa2" class="taxa2">taxa2</div>
 
         </div>
 
-    </div>
+    </section>
     <footer>
         <strong>https://github.com/jesielcarlos/ComunicacoesMoveis-2020.6</strong>
     </footer>
