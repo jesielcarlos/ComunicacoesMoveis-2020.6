@@ -8,9 +8,17 @@ section{
     width: 700px;
     height: 500px;
     margin: auto;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 8px 8px 12px rgba(41, 71, 241, 0.712);
 }
 
 .content{
     color: rgb(0, 0, 0);
-    
+    background: blue;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
 }
