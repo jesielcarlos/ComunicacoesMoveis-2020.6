@@ -12,7 +12,32 @@ section{
     padding: 15px;
     box-shadow: 8px 8px 12px rgba(41, 71, 241, 0.712);
 }
-
+.inputcampo1{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: -230px;
+    width: 200px;
+    height: 60px;
+    margin: auto;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.campo1{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: -230px;
+    width: 200px;
+    height: 60px;
+    margin: auto;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
 .content{
     color: rgb(0, 0, 0);
     background: blue;
