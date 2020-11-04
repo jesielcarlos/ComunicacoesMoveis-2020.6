@@ -4,15 +4,22 @@ body{
 }
 
 h2{
+    position: relative;
     margin: auto;
     text-align: center;
 }
-
+h2::after{
+    content: '';
+    position: absolute;
+}
 h3{
     text-align: center;
 }
 
 .conteiner{
+    position: relative;
+    justify-content: center;
+    align-items: center;
     background: rgb(183, 179, 223);
     width: 700px;
     height: 400px;
@@ -22,9 +29,10 @@ h3{
     box-shadow: 5px 5px 5px 5px rgba(41, 71, 241, 0.712);
 }
 
-button{
+.btn{
     background-color: #ddd;
     border: none;
+    outline: none;
     border-radius: 5px;
     width: 100px;
     height: 30px;
@@ -34,7 +42,7 @@ button{
     cursor: pointer;
     transition: 0.3s;
 }
-button:hover {
+.btn:hover {
     background-color: #3e8e41;
     color: white;
   }
@@ -43,7 +51,15 @@ button:hover {
     margin-top: 10px;
     height: 15px;
     border: none;
+    outline: none;
     border-radius: 8px;
+}
+.field:hover{
+    background-color: rgba(0, 0, 0,0.1);
+}
+.field:focus{
+    background-color: #fff;
+    border: 2px solid rgba(30, 85, 270, 0.47);
 }
 footer{
     text-align: center;
