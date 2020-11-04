@@ -1,9 +1,5 @@
 function calcular(){
-    //window.alert('Testando....')
-    var bw = $('#BW').val()
-    var cp = $('#CP').val()
+    window.alert('Testando....')
 
-    var result = parseFloat(bw) + parseFloat(cp)
 
-    $('#prb').html(result);
 }

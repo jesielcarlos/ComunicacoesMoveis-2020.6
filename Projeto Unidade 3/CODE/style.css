@@ -26,7 +26,7 @@ h3{
     box-shadow: 5px 5px 5px 5px rgba(41, 71, 241, 0.712);
 }
 
-/*.btn{
+.btn{
     background-color: #ddd;
     border: none;
     outline: none;
@@ -42,30 +42,36 @@ h3{
 .btn:hover {
     background-color: #3e8e41;
     color: white;
-  }*/
-.field{
+  }
+.select{
     position: relative;
     margin-top: 10px;
-    height: 15px;
+    height: 30px;
+    width: 130px;
     border: none;
     outline: none;
     border-radius: 8px;
 }
-.field:hover{
+.select:hover{
     background-color: rgba(0, 0, 0,0.1);
 }
-.field:focus{
+.select:focus{
     background-color: #fff;
     border: 2px solid rgba(30, 85, 270, 0.47);
 }
-footer{
-    text-align: center;
-}
 span{
-    border-radius: 8px;
-    background-color: #3e8e41;
+    background-color: #93b4da;
     position: relative;
-    top: 10px;
-    width: ;
-    
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+footer{
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 50px;
 }
