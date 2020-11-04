@@ -3,47 +3,48 @@ body{
     font-family:courier,arial,helvetica;
 }
 
-section{
-    background: rgb(183, 179, 223);
-    width: 700px;
-    height: 500px;
+h2{
     margin: auto;
-    border-radius: 10px;
-    padding: 15px;
-    box-shadow: 8px 8px 12px rgba(41, 71, 241, 0.712);
-}
-.inputcampo1{
-    position: relative;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: -230px;
-    width: 200px;
-    height: 60px;
-    margin: auto;
-    padding: 15px;
-    box-sizing: border-box;
-    border-radius: 10px;
-}
-.campo1{
-    position: relative;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: -230px;
-    width: 200px;
-    height: 60px;
-    margin: auto;
-    padding: 15px;
-    box-sizing: border-box;
-    border-radius: 10px;
-}
-.content{
-    color: rgb(0, 0, 0);
-    background: blue;
     text-align: center;
 }
 
+h3{
+    text-align: center;
+}
+
+.conteiner{
+    background: rgb(183, 179, 223);
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 5px 5px 5px 5px rgba(41, 71, 241, 0.712);
+}
+
+button{
+    background-color: #ddd;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 300px;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover {
+    background-color: #3e8e41;
+    color: white;
+  }
+.field{
+    position: relative;
+    margin-top: 10px;
+    height: 15px;
+    border: none;
+    border-radius: 8px;
+}
 footer{
     text-align: center;
 }
