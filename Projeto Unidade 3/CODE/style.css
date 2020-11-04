@@ -26,6 +26,12 @@ h3{
     box-shadow: 5px 5px 5px 5px rgba(41, 71, 241, 0.712);
 }
 
+label{
+    margin-left: 50px;
+    background: #0cf818;
+
+}
+
 .btn{
     background-color: #ddd;
     border: none;
@@ -61,7 +67,6 @@ h3{
 }
 span{
     background-color: #93b4da;
-    position: relative;
     margin-top: 10px;
     height: 30px;
     width: 100px;
