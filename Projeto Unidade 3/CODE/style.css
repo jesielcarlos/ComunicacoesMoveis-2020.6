@@ -8,10 +8,7 @@ h2{
     margin: auto;
     text-align: center;
 }
-h2::after{
-    content: '';
-    position: absolute;
-}
+
 h3{
     text-align: center;
 }
@@ -63,4 +60,12 @@ h3{
 }
 footer{
     text-align: center;
+}
+output{
+    border-radius: 8px;
+    background-color: #3e8e41;
+    position: relative;
+    top: 10px;
+    width: ;
+    
 }
