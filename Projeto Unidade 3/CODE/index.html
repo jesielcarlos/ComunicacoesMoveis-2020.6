@@ -9,41 +9,70 @@
     
 </head>
 <body>
-    
+
     <section class="conteiner">
         <h2>Calculadora LTE</h2>
 
         <div class="inputs">
             <h3>Inputs</h3>
-            <!--
-            <div class="label">
-                <label for="lbw">BW</label>
-                <label for="lcp">CP</label>
-                <label for="lmsc">MSC</label>
-                <label for="lmimo">MIMO</label>
-                <label for="lca">CA</label>
-            </div>
-            -->
-
+            
+            <label for="lbw" id="lbw"> <strong>BW</strong> </label>
             <select class="select" id="BW">
-                <option value="15000">15KHz</option>
-                <option value="30000">30KHz</option>
+                <option value="15000000" class="option">1.4MHz</option>
+                <option value="30000000" class="option">3MHz</option>
+                <option value="15000000" class="option">5MHz</option>
+                <option value="30000000" class="option">10MHz</option>
+                <option value="15000000" class="option">15MHz</option>
+                <option value="30000000" class="option">20MHz</option>
             </select>
+
+            <label for="lcp" id="lcp"><strong>CP</strong></label>
             <select class="select" id="CP">
-                <option value="15000">15KHz</option>
-                <option value="30000">30KHz</option>
+                <option value="15000">Normal</option>
+                <option value="30000">Extendido</option>
             </select>
+
+            <label for="lmsc" id="lmsc"><strong>MSC</strong></label>
             <select class="select" id="MSC">
-                <option value="15000">15KHz</option>
-                <option value="30000">30KHz</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+
             </select>
+
+            <label for="lmimo" id="lmimo"><strong>MIMO</strong></label>
             <select class="select" id="MIMO">
-                <option value="15000">15KHz</option>
-                <option value="30000">30KHz</option>
+                <option value="1">1X1</option>
+                <option value="2">2X2</option>
+                <option value="4">4X4</option>
+                <option value="8">8X8</option>
             </select>
+
+            <label for="lca" id="lca"><strong>CA</strong></label>
             <select class="select" id="CA">
-                <option value="15000">15KHz</option>
-                <option value="30000">30KHz</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
             </select>
         </div>
 
