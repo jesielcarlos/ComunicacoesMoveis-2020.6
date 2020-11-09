@@ -102,6 +102,99 @@ height: 100%;
     border-radius: 8px;
     background-color: rgb(193, 201, 230);
 }
+.prb{
+    text-align: center;
+    position: relative;
+    background-color: #5db7c7;
+    color: #5db7c7;
+    height: 15%;
+    width: 13%;
+    border-radius: 8px;
+}
+
+.tbs{
+    text-align: center;
+    position: relative;
+    left: 185px;
+    bottom: 30px;
+    background-color: #5db7c7;
+    color: #5db7c7;
+    height: 15%;
+    width: 13%;
+    border-radius: 8px;
+}
+
+.valortbs{
+    text-align: center;
+    position: relative;
+    left: 370px;
+    bottom: 60px;
+    background-color: #5db7c7;
+    color: #5db7c7;
+    height: 15%;
+    width: 13%;
+    border-radius: 8px;
+}
+
+.modulacao{
+    text-align: center;
+    position: relative;
+    left: 560px;
+    bottom: 90px;
+    background-color: #5db7c7;
+    color: #5db7c7;
+    height: 15%;
+    width: 13%;
+    border-radius: 8px;
+}
+
+.nre{
+    text-align: center;
+    position: relative;
+    left: 560px;
+    bottom: 60px;
+    background-color: #5db7c7;
+    color: #5db7c7;
+    height: 15%;
+    width: 13%;
+    border-radius: 8px;
+}
+
+.qtdsimbolo{
+    text-align: center;
+    position: relative;
+    bottom: 90px;
+    background-color: #5db7c7;
+    color: #5db7c7;
+    height: 15%;
+    width: 13%;
+    border-radius: 8px;
+}
+
+.taxa1{
+    text-align: center;
+    position: relative;
+    left: 185px;
+    bottom: 120px;
+    background-color: #5db7c7;
+    color: #5db7c7;
+    height: 15%;
+    width: 13%;
+    border-radius: 8px;
+}
+
+.taxa2{
+    text-align: center;
+    position: relative;
+    left: 370px;
+    bottom: 150px;
+    background-color: #5db7c7;
+    color: #5db7c7;
+    height: 15%;
+    width: 13%;
+    border-radius: 8px;
+}
 h3{
     text-align: center;
+    padding: 5px;
 }
