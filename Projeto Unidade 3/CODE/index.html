@@ -15,7 +15,7 @@
             <h2>Calculadora LTE</h2>
             <div class="inputs">
                 <h3>Inputs</h3>
-                <label for="lbw" id="lbw" class="label"> <strong>BW</strong> </label>
+                <label for="lbw" id="lbw" class="label">BW</label>
                 <select class="select" id="BW">
                     <option value="15000000" class="option">1.4MHz</option>
                     <option value="30000000" class="option">3MHz</option>
@@ -25,13 +25,13 @@
                     <option value="30000000" class="option">20MHz</option>
                 </select>
 
-                <label for="lcp" id="lcp" class="label"><strong>CP</strong></label>
+                <label for="lcp" id="lcp" class="label">CP</label>
                 <select class="select" id="CP">
                     <option value="15000">Normal</option>
                     <option value="30000">Extendido</option>
                 </select>
 
-                <label for="lmsc" id="lmsc" class="label"><strong>MSC</strong></label>
+                <label for="lmsc" id="lmsc" class="label">MSC</label>
                 <select class="select" id="MSC">
                     <option value="0">0</option>
                     <option value="1">1</option>
@@ -57,7 +57,7 @@
 
                 </select>
 
-                <label for="lmimo" id="lmimo" class="label"><strong>MIMO</strong></label>
+                <label for="lmimo" id="lmimo" class="label">MIMO</label>
                 <select class="select" id="MIMO">
                     <option value="1">1X1</option>
                     <option value="2">2X2</option>
@@ -65,7 +65,7 @@
                     <option value="8">8X8</option>
                 </select>
 
-                <label for="lca" id="lca" class="label"><strong>CA</strong></label>
+                <label for="lca" id="lca" class="label">CA</label>
                 <select class="select" id="CA">
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -77,14 +77,26 @@
             <button onclick="calcular()">calcular</button>
             <div class="outputs">
                 <h3>Outputs</h3>
-                <div id="prb" class="prb">prb</div>
-                <div id="tbs" class="tbs">tbs</div>
-                <div id="valortbs" class="valortbs">valortbs</div>
-                <div id="modulacao" class="modulacao">modulação</div>
-                <div id="nre" class="nre">nre</div>
-                <div id="qtdsimmbolos" class="qtdsimbolo">qtdsimbolo</div>
-                <div id="taxa1" class="taxa1">taxa1</div>
-                <div id="taxa2" class="taxa2">taxa2</div>
+                <div class="line1">
+                    <label for="lprb" id="lprb" class="label">PRB</label>
+                    <div id="prb" class="prb">prb</div>
+                    <label for="ltbs" id="ltbs" class="label">TBS</label>
+                    <div id="tbs" class="tbs">tbs</div>
+                    <label for="lvalortbs" id="lvalortbs" class="label">VALOR TBS</label>
+                    <div id="valortbs" class="valortbs">valortbs</div>
+                    <label for="lmodulacao" id="lmodulacao" class="label">MODULAÇÃO</label>
+                    <div id="modulacao" class="modulacao">modulação</div>
+                </div>
+                <div class="line2">
+                    <label for="lnre" id="lnre" class="label">NRE</label>
+                    <div id="nre" class="nre">nre</div>
+                    <label for="lqtdsimmbolos" id="lqtdsimmbolos" class="label">QTD SIMBOLOS</label>
+                    <div id="qtdsimmbolos" class="qtdsimbolo">qtdsimbolo</div>
+                    <label for="ltaxa1" id="ltaxa1" class="label">TAXA 1</label>
+                    <div id="taxa1" class="taxa1">taxa1</div>
+                    <label for="ltaxa2" id="ltaxa2" class="label">TAXA 2</label>
+                    <div id="taxa2" class="taxa2">taxa2</div>
+                </div>
             </div>
         </div>
     </div>
