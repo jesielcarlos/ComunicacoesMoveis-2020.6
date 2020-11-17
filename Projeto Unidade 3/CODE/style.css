@@ -27,7 +27,7 @@ body{
     width: 50%;
     height: 70%;
     border: none;
-    background-color: rgb(193, 201, 230);
+    background-color:rgb(193, 201, 230);
     border-radius: 5px;
     box-shadow: 10px;
     
@@ -129,8 +129,8 @@ body{
 .prb{
     text-align: center;
     position: relative;
-    background-color: #5db7c7;
-    color: #5db7c7;
+    background-color: #fff;
+    color: #fff;
     height: 40%;
     width: 13%;
     border-radius: 8px;
@@ -140,8 +140,8 @@ body{
 .tbs{
     text-align: center;
     position: relative;
-    background-color: #5db7c7;
-    color: #5db7c7;
+    background-color: #fff;
+    color: #fff;
     height: 40%;
     width: 13%;
     border-radius: 8px;
@@ -150,8 +150,8 @@ body{
 .valortbs{
     text-align: center;
     position: relative;
-    background-color: #5db7c7;
-    color: #5db7c7;
+    background-color: #fff;
+    color: #fff;
     height: 40%;
     width: 13%;
     border-radius: 8px;
@@ -160,8 +160,8 @@ body{
 .modulacao{
     text-align: center;
     position: relative;
-    background-color: #5db7c7;
-    color: #5db7c7;
+    background-color: #fff;
+    color: #fff;
     height: 40%;
     width: 13%;
     border-radius: 8px;
@@ -171,8 +171,8 @@ body{
 .nre{
     text-align: center;
     position: relative;
-    background-color: #5db7c7;
-    color: #5db7c7;
+    background-color: #fff;
+    color: #fff;
     height: 40%;
     width: 13%;
     border-radius: 8px;
@@ -182,8 +182,8 @@ body{
 .qtdsimbolo{
     text-align: center;
     position: relative;
-    background-color: #5db7c7;
-    color: #5db7c7;
+    background-color: #fff;
+    color: #fff;
     height: 40%;
     width: 13%;
     border-radius: 8px;
@@ -192,8 +192,8 @@ body{
 .taxa1{
     text-align: center;
     position: relative;
-    background-color: #5db7c7;
-    color: #5db7c7;
+    background-color: #fff;
+    color: #fff;
     height: 40%;
     width: 13%;
     border-radius: 8px;
@@ -202,8 +202,8 @@ body{
 .taxa2{
     text-align: center;
     position: relative;
-    background-color: #5db7c7;
-    color: #5db7c7;
+    background-color: #fff;
+    color: #fff;
     height: 40%;
     width: 13%;
     border-radius: 8px;
