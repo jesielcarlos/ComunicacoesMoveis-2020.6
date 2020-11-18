@@ -19,198 +19,66 @@
   }
   
 body{
-    background: linear-gradient(to right, #70a7dd, #057bf1); 
+    background: linear-gradient(to right, #e991f5, #0766c5); 
 }
 .calculadora{
     font-family: "Muli", serif;
     position: absolute;
-    width: 50%;
+    width: 60%;
     height: 70%;
     border: none;
     background-color:rgb(193, 201, 230);
     border-radius: 5px;
-    box-shadow: 10px;
-    
-}
-.calculadora h2{
-    color: black;
+    box-shadow: 10px 10px 8px #0766c5;
     text-align: center;
-    margin: 0;
-    border: none;
-    padding: 0;
 
 }
-.inputs button{
-    position: absolute;
-    display: block;
-    font-family: "Muli", serif;
-    color: black;
-    background: #bdc3c7;
-    background: -webkit-linear-gradient(to left, #2c3e50, #a6a9ac);
-    background: linear-gradient(to left, #2c3e50, #a6a9ac); 
+.setor{
+    height: 93%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+.input{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inputs label{
+    width: 25%;
+}
+.inputs select{
+    position: relative;
+    width: 75%;
+    height: 40px;
+    border: none;   
     border-radius: 5px;
-    width: 20%;
+    justify-content: center;
+    cursor: pointer;  
+}
+button{
+    width: 30%;
     height: 10%;
-    margin-top: 80px;
-    margin-left: 40%;
-
-    cursor: pointer;
+    background: linear-gradient(to right, #f1e4f3, #459bf1);
     border: none;
-    padding: 1rem 2rem;
+    border-radius: 5px;
     text-transform: uppercase;
-    
+    cursor: pointer;
 }
-.calculadora button:hover{
-    opacity: 0.7;
-}
-.select{
-    position: relative;
-    margin-top: 4%;
-    height: 15%;
-    width: 13%;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-}
-.select:hover{
-    background-color: rgba(0, 0, 0,0.1);
-}
-.select:focus{
-    background-color: #fff;
-    border: 2px solid rgba(30, 85, 270, 0.47);
-}
-
-.label{
-    padding: 4px;
-}
-
 .inputs{
-    width: 100%;
-    height: 50%;
-    border: none;
-    border-radius: 5px;
-    background-color: rgb(193, 201, 230);
-}
-.outputs{
-    width: 100%;
-    height: 50%;
-    border: none;
-    border-radius: 5px;
-    background-color: rgb(193, 201, 230);
-    /*
-    display: flex;
-    flex-derection: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    */
-}
-
-.line1{
-    background-color:rgb(193, 201, 230);
-    width: 100%;
-    height: 40%;
+    position: relative;
+    width: 180px;
+    margin: 15px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    border-radius: 5px;
-}
-.line2{
-    background-color:rgb(193, 201, 230);
-    width: 100%;
-    height: 40%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    border-radius: 5px;
-}
-
-.prb{
-    text-align: center;
-    position: relative;
-    background-color: #fff;
-    color: #fff;
-    height: 40%;
-    width: 13%;
-    border-radius: 8px;
-
-}
-
-.tbs{
-    text-align: center;
-    position: relative;
-    background-color: #fff;
-    color: #fff;
-    height: 40%;
-    width: 13%;
-    border-radius: 8px;
-}
-
-.valortbs{
-    text-align: center;
-    position: relative;
-    background-color: #fff;
-    color: #fff;
-    height: 40%;
-    width: 13%;
-    border-radius: 8px;
-}
-
-.modulacao{
-    text-align: center;
-    position: relative;
-    background-color: #fff;
-    color: #fff;
-    height: 40%;
-    width: 13%;
-    border-radius: 8px;
+    align-items: center;
     
 }
-
-.nre{
-    text-align: center;
-    position: relative;
-    background-color: #fff;
-    color: #fff;
-    height: 40%;
-    width: 13%;
-    border-radius: 8px;
-
-}
-
-.qtdsimbolo{
-    text-align: center;
-    position: relative;
-    background-color: #fff;
-    color: #fff;
-    height: 40%;
-    width: 13%;
-    border-radius: 8px;
-}
-
-.taxa1{
-    text-align: center;
-    position: relative;
-    background-color: #fff;
-    color: #fff;
-    height: 40%;
-    width: 13%;
-    border-radius: 8px;
-}
-
-.taxa2{
-    text-align: center;
-    position: relative;
-    background-color: #fff;
-    color: #fff;
-    height: 40%;
-    width: 13%;
-    border-radius: 8px;
-}
-
-
-h3{
-    text-align: center;
-    padding: 5px;
+.output{
+    width: 50%;
+    height: 100%;
 }
