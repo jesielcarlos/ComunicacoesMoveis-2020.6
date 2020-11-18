@@ -11,12 +11,10 @@
 
         <div class="calculadora">
             <h2>Calculadora NR</h2>
-            <div class="setor">
                 <div class="input">
 
-                    <h3>Inputs</h3>
                     <div class="inputs">
-                        <label for="lbw" id="lbw" class="label">BW</label>
+                        <label for="lbw" id="lbw" class="label">Número de transportadores de componentes </label>
                         <select class="select" id="BW">
                             <option value="15000000" class="option">1.4MHz</option>
                             <option value="30000000" class="option">3MHz</option>
@@ -28,7 +26,7 @@
                     </div>
 
                     <div class="inputs">
-                        <label for="lcp" id="lcp" class="label">CP</label>
+                        <label for="lcp" id="lcp" class="label">Ordem de modulação</label>
                         <select class="select" id="CP">
                             <option value="15000">Normal</option>
                             <option value="30000">Extendido</option>
@@ -36,34 +34,27 @@
                     </div>
                     
                     <div class="inputs">
-                        <label for="lmsc" id="lmsc" class="label">MSC</label>
-                        <select class="select" id="MSC">
-                            <option value="0">0</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                            <option value="9">9</option>
-                            <option value="10">10</option>
-                            <option value="11">11</option>
-                            <option value="12">12</option>
-                            <option value="13">13</option>
-                            <option value="14">14</option>
-                            <option value="15">15</option>
-                            <option value="16">16</option>
-                            <option value="17">17</option>
-                            <option value="18">18</option>
-                            <option value="19">19</option>
-                            <option value="20">20</option>
+                        <label for="lmimo" id="lmimo" class="label">Número de camadas</label>
+                        <select class="select" id="MIMO">
+                            <option value="1">1X1</option>
+                            <option value="2">2X2</option>
+                            <option value="4">4X4</option>
+                            <option value="8">8X8</option>
                         </select>
                     </div>
-                    
+
                     <div class="inputs">
-                        <label for="lmimo" id="lmimo" class="label">MIMO</label>
+                        <label for="lmimo" id="lmimo" class="label">Fator de escala</label>
+                        <select class="select" id="MIMO">
+                            <option value="1">1X1</option>
+                            <option value="2">2X2</option>
+                            <option value="4">4X4</option>
+                            <option value="8">8X8</option>
+                        </select>
+                    </div>
+
+                    <div class="inputs">
+                        <label for="lmimo" id="lmimo" class="label">NR numerologia</label>
                         <select class="select" id="MIMO">
                             <option value="1">1X1</option>
                             <option value="2">2X2</option>
@@ -73,7 +64,7 @@
                     </div>
                     
                     <div class="inputs">
-                        <label for="lca" id="lca" class="label">CA</label>
+                        <label for="lca" id="lca" class="label">Número de PRBs alocados</label>
                         <select class="select" id="CA">
                             <option value="1">1</option>
                             <option value="2">2</option>
@@ -82,13 +73,37 @@
                             <option value="5">5</option>
                         </select>
                     </div>
+
+                    <div class="inputs">
+                        <label for="lca" id="lca" class="label"><div class="inputs">
+                            <label for="lca" id="lca" class="label">A sobrecarga </label>
+                            <select class="select" id="CA">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </div>
+                    </div>
+
                     <button>calcular</button>
+
                 </div>
     
                 <div class="output">
-                    <h3>Outputs</h3>
+                    
+                    <div class="outputs" id="mbps">
+                        <label for="lmbps" id="lmbps" class="label">Taxa de transferência em Mbps:</label>
+                        <output id="Mbps"></output>
+                    </div>
+                    
+                    <div class="outputs" id="gbps">
+                        <label for="lgbps" id="lgbps" class="label">Taxa de transferência em Gbps:</label>
+                        <output id="Gbps"></output>
+                    </div>
                 </div>
-            </div>
+
             
 
         </div>

@@ -19,51 +19,50 @@
   }
   
 body{
-    background: linear-gradient(to right, #e991f5, #0766c5); 
+    background: linear-gradient(to right, #dad4db, #999a9b); 
 }
 .calculadora{
     font-family: "Muli", serif;
     position: absolute;
-    width: 60%;
-    height: 70%;
+    width: 50%;
+    height: 98%;
     border: none;
-    background-color:rgb(193, 201, 230);
+    background-color:rgb(228, 229, 231);
     border-radius: 5px;
-    box-shadow: 10px 10px 8px #0766c5;
+    box-shadow: 10px 10px 8px #828485;
     text-align: center;
-
 }
-.setor{
-    height: 93%;
+
+.input{
+    width: 100%;
+    height: 50%;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    text-align: center;
-}
-.input{
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .inputs label{
-    width: 25%;
+    width: 100%;
+    font-size: 14px;
 }
 .inputs select{
     position: relative;
-    width: 75%;
-    height: 40px;
+    width: 100%;
+    height: 50px;
     border: none;   
     border-radius: 5px;
-    justify-content: center;
+    align-items: center;
     cursor: pointer;  
 }
 button{
     width: 30%;
-    height: 10%;
-    background: linear-gradient(to right, #f1e4f3, #459bf1);
+    height: 18%;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background: linear-gradient(to right, #e6dee7, #45f15c);
     border: none;
     border-radius: 5px;
     text-transform: uppercase;
@@ -71,14 +70,40 @@ button{
 }
 .inputs{
     position: relative;
-    width: 180px;
-    margin: 15px;
+    width: 315px;
+    height: 75px;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    
 }
 .output{
-    width: 50%;
-    height: 100%;
+    width: 100%;
+    height: 44%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.outputs{
+    width: 80%;
+    height: 30%;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+#mbps{
+    background-color: #28b43b;
+}
+#gbps{
+    background-color: #2865b4;
+}
+
+.label{
+    width: 100%;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
