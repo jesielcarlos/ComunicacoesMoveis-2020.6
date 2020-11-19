@@ -1,13 +1,15 @@
 function calcular(){
-    window.alert('Testando....')
-    var bw   = window.document.getElementById('BW').value
-    var cp   = window.document.getElementById('CP').value
-    var msc  = window.document.getElementById('BW').value
-    var mimo = window.document.getElementById('BW').value
-    var ca   = window.document.getElementById('BW').value
-    var prb =  window.document.getElementById('prb')
-    var result = parseFloat(bw) + parseFloat(cp)
+    
+    var ncarrier   = window.document.getElementById('ncarrier').value
+    var om   = window.document.getElementById('om').value
+    var ncamadas  = window.document.getElementById('ncamadas').value
+    var fe = window.document.getElementById('fe').value
+    var nr =  window.document.getElementById('nr').value
+    var nprb =  window.document.getElementById('nprb').value
+    var overhead =  window.document.getElementById('overhead').value
+    var mbps =  window.document.getElementById('Mbps')
+    var result = parseFloat(ncarrier) + parseFloat(om)
 
-    prb.innerHTML= result
+    Mbps.innerHTML= result + "Mbps"
     
 }

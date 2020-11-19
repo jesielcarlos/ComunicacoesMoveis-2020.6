@@ -15,7 +15,7 @@
             <div class="input">
 
                 <div class="inputs">
-                    <label for="lbw" id="lbw" class="label">Número de portadoras </label>
+                    <label for="lncarrier" id="lncarrier" class="label">Número de portadoras </label>
                     <input type="text" id="ncarrier">
                 </div>
 
@@ -57,13 +57,13 @@
                 </div>
                 
                 <div class="inputs">
-                    <label for="lca" id="lca" class="label">Número de PRBs alocados</label>
+                    <label for="lnprb" id="lnprb" class="label">Número de PRBs alocados</label>
                     <input type="text" id="nprb">
                 </div>
 
                 <div class="inputs">
-                    <label for="lca" id="lca" class="label">Overhead</label>
-                    <select class="select" id="CA">
+                    <label for="loverhead" id="loverhead" class="label">Overhead</label>
+                    <select class="select" id="overhead">
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
@@ -72,19 +72,19 @@
                     </select>
                 </div>
 
-                <button>calcular</button>
+                <button onclick="calcular()">calcular</button>
 
             </div>
 
             <div class="output">
                 
                 <div class="outputs" id="mbps">
-                    <label for="lmbps" id="lmbps" class="label">Throughput em Mbps:</label>
+                    <label for="lmbps" id="lmbps" class="label"> <strong>Throughput em Mbps:</strong></label>
                     <output id="Mbps"></output>
                 </div>
                 
                 <div class="outputs" id="gbps">
-                    <label for="lgbps" id="lgbps" class="label">Throughput em Gbps:</label>
+                    <label for="lgbps" id="lgbps" class="label"><strong>Throughput em Gbps:</strong></label>
                     <output id="Gbps"></output>
                 </div>
             </div>
