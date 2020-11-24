@@ -1,4 +1,3 @@
-# ComunicacoesMoveis-2020.6
 1. Etrair o arquivo compactado.
 2. Abrir a pasta "CODE". 
 3. Abrir o arquivo index.html
