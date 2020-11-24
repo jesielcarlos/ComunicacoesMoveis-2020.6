@@ -1,5 +1,4 @@
-function calcular(){
-    
+function throughput5G(){
     var ncarrier   = parseFloat(window.document.getElementById('ncarrier').value) 
     var om   = parseFloat(window.document.getElementById('om').value)
     var ncamadas  = parseFloat(window.document.getElementById('ncamadas').value)
@@ -19,6 +18,6 @@ function calcular(){
     result = Math.pow(10,-6) * result
     result2 = result/1000
 
-    Mbps.innerHTML= result + "Mbps"
+    mbps.innerHTML= result + "Mbps"
     gbps.innerHTML = result2 + "Gbps"
 }

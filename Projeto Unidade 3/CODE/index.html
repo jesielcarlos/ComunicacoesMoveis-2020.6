@@ -92,10 +92,15 @@
 
                 <div class="inputs">
                     <label for="loverhead" id="loverhead" class="label">Overhead</label>
-                    <input type="text" id="overhead">
+                    <select class="select" id="overhead">
+                        <option value="0.08">0.08</option>
+                        <option value="0.10">0.10</option>
+                        <option value="0.14">0.14</option>
+                        <option value="0.18">0.18</option>
+                    </select>
                 </div>
 
-                <button onclick="calcular()">calcular</button>
+                <button onclick="throughput5G()">calcular</button>
 
             </div>
 
