@@ -16,25 +16,30 @@
                 <img src="../CODE/Images/equacao.png" alt="">
             </div>
                 <p>
-                    Following fields are used in 5G NR throughput calculation. <br/>
-                    &#10148;J : number of aggregated component carriers in a band or band combination				<br/>
-                    &#10148;R<sub>max</sub> : 948/1024				<br/>
-                    &bull;&nbsp;For the j-th CC, V<sub>layers</sub><sup>(j)</sup> is the maximum number of layers <br/>
-                    &#10148;Q<sub>m</sub><sup>(j)</sup> : Maximum modulation order, Qm is 2 for QPSK, 4 for 16QAM, 6 for 32QAM, 8 for 256QAM				<br/>
-                    &#10148;f<sup>(j)</sup>	: Scaling factor, can take any value from 1/0.8/0.75/0.4			<br/>
-                    &#10148;&mu; : 5G NR Numerology, can take any value from 0 to 5. 				<br/>
-                    &#10148;T<sub>s</sub><sup>&mu;</sup> : Average OFDM symbol duration in a subframe for &mu; value, <br/>
-                    &bull;&nbsp; T<sub>s</sub><sup>&mu;</sup> = 10<sup>-3</sup>/(14*2<sup>&mu;</sup>). <br/>
-                    &#10148;N<sub>PRB</sub><sup>BW(j),&mu;</sup> : Maximum RB Allocation in bandwidth, BW(j)with
-                    numerology (&mu;), <br/>
-                    BW(j) is UE supported maximum Bandwidth  in given band or in band combinations.  <br/>
-                    REs are grouped into PRBs (Physical Resource Blocks).
-                    Each PRB consists of 12 Subcarriers. <br/>
-                    &#10148;OH<sup>(j)</sup> : Overhead which takes any of the following values. <br/>
-                    &bull;&nbsp;[0.14] &rarr; Frequency Range FR1 for DL <br/>
-                    &bull;&nbsp;[0.18] &rarr; Frequency Range FR2 for DL <br/>
-                    &bull;&nbsp;[0.08] &rarr; Frequency Range FR1 for UL <br/>
-                    &bull;&nbsp;[0.10] &rarr; Frequency Range FR2 for DL <br/>
+                    Para 5G NR, a taxa de dados aproximada para um determinado número de portadoras agregadas em uma banda ou combinação de bandas é calculada usando a equação acima. 
+                    <br/>
+                    &#10148;J: número de portadores de componentes agregados em uma banda ou combinação de bandas.
+                    <br/>
+                    &#10148;R<sub>max</sub> : 948/1024 .	
+                    <br/>
+                    &bull;&nbsp;V<sub>layers</sub><sup>(j)</sup> : É o número máximo de camadas.
+                    <br/>
+                    &#10148;Q<sub>m</sub><sup>(j)</sup> : Ordem de modulação, Qm é 2 para QPSK, 4 para 16QAM, 6 para 32QAM, 8 para 256QAM.		<br/>
+                    &#10148;f<sup>(j)</sup>	: Fator de escala, pode assumir os valores 1/0.8/0.75/0.4 .	
+                    <br/>
+                    &#10148;&mu; : 5G NR Numerologia, pode assumir os valores de 0 a 5. <br/>
+                    &#10148;T<sub>s</sub><sup>&mu;</sup> : Duração média do símbolo OFDM em um subframe para valor &mu;
+                    <br/>
+                    &bull;&nbsp; T<sub>s</sub><sup>&mu;</sup> = 10<sup>-3</sup>/(14*2<sup>&mu;</sup>). 
+                    <br/>
+                    &#10148;N<sub>PRB</sub><sup>BW(j),&mu;</sup> : Maximum RB Alocação máxima de RB na largura de banda, BW(j)with com numerologia (&mu;), BW (j) é a largura de banda máxima suportada pela UE em determinada banda ou em combinações de banda. REs são agrupados em PRBs (blocos de recursos físicos). Cada PRB consiste em 12 subportadoras.
+                    <br/>
+                    &#10148;OH<sup>(j)</sup> : Overhead assume os seguintes valores
+                    <br/>
+                    &bull;&nbsp;[0.08] &rarr; Faixa de frequência FR1 para UL <br/>
+                    &bull;&nbsp;[0.14] &rarr; Faixa de frequência FR1 para DL <br/>
+                    &bull;&nbsp;[0.18] &rarr; Faixa de frequência FR2 para DL <br/>
+                    &bull;&nbsp;[0.10] &rarr; Faixa de frequência FR2 para DL <br/>
                 </p>
             
         </div>
@@ -123,17 +128,21 @@
             <h4>Exemplo:</h4> <br>
             <p>
                 <strong>Inputs:</strong> <br>	<br>
-                J (Number of CCs) =1, 	<br/> <br>
-                Qm, modulation order = 8 (i.e. 256 QAM) <br/> <br>
-                V<sub>layer</sub>, Number of layers = 4 <br/> <br>
-                F, Scaling Factor = 1 <br/> <br>
-                &micro;, 5G NR Numerology = 1 <br/> <br>
-                Number of PRBs = 273 <br/> <br> 
+                J (Número de portadoras) = 1, 	<br/> <br>
+                Qm, Ordem de modulação = 8 (i.e. 256 QAM) <br/> <br>
+                V<sub>layer</sub>, Número de camadas = 4 <br/> <br>
+                F, Fator de escala = 1 <br/> <br>
+                &micro;, 5G NR Numerologia = 1 <br/> <br>
+                Número de PRBs = 273 <br/> <br> 
                 OH (Overhead) = 0.14 <br/> <br>
-                &#10148;symbol duration, Ts (&micro;s) = 3.57 x 10<sup>-5</sup> (Internally calculated) <br/> <br> 
+                &#10148;Duração do símbolo, Ts (&micro;s) = 3.57 x 10<sup>-5</sup> (Calculado internamente) <br/> <br> 
                 <strong>Output:</strong> <br> <br>
                 2.337 Gbps	(or 2337 Mbps)	<br/> <br>
-                <strong>Note:</strong> Verify, by varying J, we can get 5G NR throughput of 4.674 Gbps (for J=2), 9.348 Gbps (for J=4), and 18.696 Gbps (for J=8).
+                
+            </p>
+            <br>
+            <p>
+                A calculadora de rendimento 5G NR foi desenvolvida de acordo com os documentos 3GPP TS 38.306, 38.101-1,2.
             </p>
         </div>
 

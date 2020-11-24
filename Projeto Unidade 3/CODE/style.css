@@ -24,8 +24,8 @@ body{
 
 .lateralesquerda{
     position: relative;
-    width: 23%;
-    height: 92%;
+    width: 25%;
+    height: 93%;
     padding: 1%;
     margin-left: 1.5%;
     margin-right: 1%;
@@ -35,15 +35,16 @@ body{
     box-shadow: 5px 5px 5px 5px rgb(147, 149, 151);
 }
 p{
-    font-size: 13px;
+    font-size: 12.5px;
+    text-align: justify;
 }
 .calculadora{
     position: relative;
     width: 46%;
-    height: 96%;
+    height: 97%;
     border: none;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
     background-color:rgb(228, 229, 231);
     text-align: center;
     border-radius: 5px;
@@ -53,8 +54,8 @@ p{
 
 .lateraldireita{
     position: relative;
-    width: 23%;
-    height: 92%;
+    width: 25%;
+    height: 93%;
     padding: 1%;
     margin-left: 1%;
     margin-right: 1.5%;
