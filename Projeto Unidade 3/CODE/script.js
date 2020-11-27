@@ -16,7 +16,9 @@ function throughput5G(){
     }
     
     result = Math.pow(10,-6) * result
+    result = result.toFixed(5)
     result2 = result/1000
+    result2 = result2.toFixed(5)
 
     mbps.innerHTML= result + "Mbps"
     gbps.innerHTML = result2 + "Gbps"
