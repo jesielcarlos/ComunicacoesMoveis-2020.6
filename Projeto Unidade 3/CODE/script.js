@@ -11,15 +11,22 @@ function throughput5G(){
     var gbps = window.document.getElementById('Gbps')
     var result = 0
     var result2 = 0
-    for (var i = 0; i < ncarrier; i++){
-        result = result + ( Math.pow(ncamadas,i+1) * Math.pow(om,i+1) * Math.pow(fe,i+1) * (948/1024) * (nprb*12/Ts) * (1 - Math.pow(overhead,i+1)) )
-    }
-    
-    result = Math.pow(10,-6) * result
-    result = result.toFixed(5)
-    result2 = result/1000
-    result2 = result2.toFixed(5)
 
-    mbps.innerHTML= result + "Mbps"
-    gbps.innerHTML = result2 + "Gbps"
+    if (nprb > 273){
+        window.alert('O número de PRBs máximo é 273')
+    }
+    else {
+        for (var i = 0; i < ncarrier; i++){
+            result = result + ( Math.pow(ncamadas,i+1) * Math.pow(om,i+1) * Math.pow(fe,i+1) * (948/1024) * (nprb*12/Ts) * (1 - Math.pow(overhead,i+1)) )
+        }
+        
+        result = Math.pow(10,-6) * result
+        result = result.toFixed(5)
+        result2 = result/1000
+        result2 = result2.toFixed(5)
+    
+        mbps.innerHTML= result + "Mbps"
+        gbps.innerHTML = result2 + "Gbps"
+    }
+
 }
